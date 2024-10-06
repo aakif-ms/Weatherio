@@ -1,6 +1,9 @@
 # Weatherio
 A weather app built using React and the OpenWeather API.
 
+# Weatherio is Live
+Weatherio is live and hosted. You can access the website using the following link: https://weatherio47.netlify.app/
+
 ## Features
 - Fetches weather data from the OpenWeather API
 - Displays current weather information for a selected city
