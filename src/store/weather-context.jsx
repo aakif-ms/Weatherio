@@ -37,7 +37,7 @@ export default function WeatherProvider({ children }) {
         setNextHoursWeather(nextWeather);
 
         const airQualityRes = await axios.get(
-          `http://api.openweathermap.org/data/2.5/air_pollution?lat=${currentWeatherRes.data.coord.lat}&lon=${currentWeatherRes.data.coord.lon}&appid=${apiKey}`
+          `https://api.openweathermap.org/data/2.5/air_pollution?lat=${currentWeatherRes.data.coord.lat}&lon=${currentWeatherRes.data.coord.lon}&appid=${apiKey}`
         );
         console.log(airQualityRes.data);
         setAirQuality(airQualityRes.data);
